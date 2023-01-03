@@ -1,16 +1,11 @@
-import Header from '../components/header';
-import Sidebar from '../components/Sidebar';
+import Layout from "../components/Layout";
 
 export default function Users() {
   return (
     <>
-      <Header title={'Admin Page | Users'} />
-      <div className="flex">
-        <Sidebar />
-        <div>
-          <h2>Users</h2>
-        </div>
-      </div>
+      <Layout title={"Admin Page | User"}>
+        <h2>Hello</h2>
+      </Layout>
     </>
   );
 }
